@@ -17,7 +17,9 @@
 
     <testsuites>
         <testsuite name="MongoDB CRUD Test Suite">
-            <directory>./tests/</directory>
+            <file>./tests/Operation/WatchFunctionalTest.php</file>
+            <file>./tests/ClientFunctionalTest.php</file>
+            <file>./tests/FunctionsTest.php</file>
         </testsuite>
     </testsuites>
 </phpunit>
