@@ -108,7 +108,7 @@ class WritableStream
         $this->disableMD5 = $options['disableMD5'];
 
         if ( ! $this->disableMD5) {
-            $this->hashCtx = hash_init('md5');
+            throw DomainException('`md5` support removed.');
         }
 
         $this->file = [

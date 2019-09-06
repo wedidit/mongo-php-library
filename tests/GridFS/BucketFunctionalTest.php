@@ -747,6 +747,6 @@ class BucketFunctionalTest extends FunctionalTestCase
      */
     private function getInvalidStreamValues()
     {
-        return [null, 123, 'foo', [], hash_init('md5')];
+        return [null, 123, 'foo', [], hash_init('sha256')];
     }
 }
